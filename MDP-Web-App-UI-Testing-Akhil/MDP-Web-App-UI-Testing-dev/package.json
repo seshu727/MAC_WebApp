@@ -1,0 +1,42 @@
+{
+  "name": "mdp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": " Validation-spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "protractor conf.js",
+    "debug": "protractor failureConf.js",
+    "debug2": "node --inspect-brk node_modules/protractor/bin/protractor conf.js",
+    "web-driver-update": "webdriver-manager update",
+    "web-driver-start": "webdriver-manager start",
+    "feature:login": "protractor conf.js --suite LOGIN",
+    "feature:expenseAddSsah": "protractor conf.js --suite ADD_SSAH_EXPENSES",
+    "feature:expenseAddPassport": "protractor conf.js --suite ADD_PASSPORT_EXPENSES",
+    "feature:expenseAttachment": "protractor conf.js --suite EXPENSES_ATTACHMENT",
+    "feature:managePassportExpense": "protractor conf.js --suite MANAGE_EXPENSES",
+    "feature:addexpenseResidential": "protractor conf.js --suite residential_addExpense",
+    "feature:manageexpensesResidential": "protractor conf.js --suite residential_manageExpenses",
+    "feature:SUPER_VISOR": "protractor conf.js --suite SUPER_VISOR"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/babel-core": "^6.25.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chromedriver": "^78.0.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-protractor": "^2.1.1",
+    "protractor": "^5.4.2",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "webdriver": "^5.15.4",
+    "webdriver-manager": "^12.1.7"
+  }
+}
