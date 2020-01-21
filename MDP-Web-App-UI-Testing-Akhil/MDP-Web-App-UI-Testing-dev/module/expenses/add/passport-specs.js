@@ -1,6 +1,6 @@
 'use strict';
 
-const constants = require('../../constant.value.js');
+const constants = require('../../constant.value.js');``
 import {
     LoginObject
 } from '../../login/login.obj';
@@ -9,7 +9,8 @@ import {
 } from '../../verification-action-popup.obj';
 import {
     SideMenuObject
-} from '../../side-menu.obj';
+
+} from '../../side-menu.obj'
 
 import {
     ExpenseObject
